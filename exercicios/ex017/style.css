@@ -1,0 +1,36 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, %
+
+    16px geralemnte = 1em
+    */
+    
+    font-size: 16px;
+    font-weight: ;
+    /*lighter, normal, bold, bolder*/
+    font-style: ;
+    text-decoration: ;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 3em;
+    font-style: italic;
+    
+    
+    /*shorthand font 
+    - font-style, font-weight, font-size, font-family*/
+
+    font: italic lighter 3em 'Courier New', Courier, monospace;
+}
+    
+
+

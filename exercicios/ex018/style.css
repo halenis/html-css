@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&family=Shadows+Into+Light&display=swap');
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+}
