@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+
+    display: flex;
+
+    /* alinhamento dos elementos no eixo X (vertical) */
+    align-items: center;
+    
+    /* alinhamento dos elementos no eixo X (horizontal) */
+    justify-content: space-between;
+
+    background-image: url();
+}
+
+.itens{
+    border:2px solid orange;
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: ;
+        
+}
+
+.miolo{
+    border: 1px solid green;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.itens:hover{
+    background-color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.paragrafo{
+    text-align: justify;
+    display: ;
+    width: 100px;
+    
+}
+
+.email{
+    background-color: aquamarine;
+    width: 100px;
+}
