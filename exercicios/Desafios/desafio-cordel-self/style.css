@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 *{
     margin: 0;
@@ -10,14 +15,14 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 header{
     height: 270px;
     background-color: black;
-    min-width: 890px;
-    max-width: ;
+    
     
 
 }
@@ -27,33 +32,41 @@ header h1{
     color: white;
     text-align: center;
     padding-top: 70px;
-    font-size: 7.1em;
+    font-size: 10vh;
     padding-bottom: 10px;
 }
 
 header p{
     color: white;
     text-align: center;
+
+    
     
 }
 
+p{
+    padding: 15px;
+}
+
 article p{
-    font-size: 4.0em;
-    line-height: 110px;
+    
+    line-height: 2em;
     padding-top: 70px;
     padding-left: 50px;
     font-family: 'Sriracha', cursive;
+    font-size: 5vh;
 }
 
 .imagem1{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .p2{
     background-image: linear-gradient(to right, black, transparent) ;
     width: max-content;
-    font-size: 4.0em;
+    font-size: 5vh;
     line-height: 110px;
     padding-top: 70px;
     padding-left: 30px;
@@ -65,21 +78,24 @@ article p{
 .imagem2{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .p3{
     background-color: rgba(128, 128, 128, 0.501);
     width: max-content;
-    font-size: 4.0em;
-    line-height: 110px;
+    font-size: 5vh;
+    line-height: 2em;
     padding-top: 70px;
     padding-left: 30px;
     margin-left: 25px;
     color: white;
+    
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    margin:10px;
 }
