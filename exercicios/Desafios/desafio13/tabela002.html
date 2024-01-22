@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 002</title>
+
+    <style>
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(137, 43, 226, 0.342);
+            height:  100vh;
+            
+        }
+
+        header{
+            text-align: center;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            
+            
+            
+        }
+
+        table{
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            background-color: white;
+            border: 0px;
+            border-radius: 4px;
+            transform: translate(0%, -50%);
+            border-spacing: 20px;
+
+            
+            
+            
+            
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        
+        td:hover{
+            background-color: gray;
+            padding: 12px;
+            
+            font-weight: bold;
+            transition: 0.5s;               
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Desafio da Tabela do Guanáberas 2</h1>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+        
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+        
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </table>
+    </main>
+    
+</body>
+</html>

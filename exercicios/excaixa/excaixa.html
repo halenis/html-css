@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+
+    <style>
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .caixa01{
+            background-color: purple;
+            width: 50%;
+            height: 300px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .caixa01:hover{
+            padding: 20px;
+            transition: 1s;
+            border-radius: 20px;
+            background-color: rgb(17, 255, 0);
+        }
+
+        .caixa02:hover{
+            padding: 20px;
+            transition: 1s;
+            border-radius: 20px;
+            background-color: rgb(202, 0, 0);
+        }
+
+        .caixa02{
+            background-color: rgb(222, 214, 6);
+            width: 50%;
+            height: 300px;    
+            display: flex;  
+            justify-content: center;
+            align-items: center; 
+            cursor: wait;  
+            border-radius: 5px;
+
+        }
+
+        p{
+            color: white;
+            font-size: 4em;            
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="caixa01">
+
+        <p>CLIQUE AQUI</p>
+
+    </div>
+    
+    <div class="caixa02">
+
+        <p>NÃO CLIQUE AQUI</p>
+
+    </div>
+    
+</body>
+</html>
