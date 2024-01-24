@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    iframe{
+        width: 95vh;
+        height: 400px;
+        border: 2px solid black;
+    }
+
+    ul{
+        display: flex;
+        
+    }
+
+    li{
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    a{
+        list-style-type: none;
+    }
+
+    .container{
+        display: flex;        
+        justify-content: center;
+    }
+    
+    img.joan{
+    transition: 0ms;
+    filter: brightness(0.25) saturate(0) blur(3px);
+    z-index: 1 !important;        
+    width: 500px;
+    border-radius: 50%cv ;
+    }
+
+    img.joan:hover{
+    transition: 1s;
+    filter: brightness(1) saturate(1) blur(0px);
+    opacity: 1;
+    }
+</style>
+<body>
+
+    <h1>faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae blanditiis quibusdam dicta in placeat ipsa cupiditate facere perspiciatis. Nesciunt eum iste sequi laboriosam praesentium nisi a unde. Asperiores, unde exercitationem.</p>
+
+    <ul>
+        <li><a href="../Desafios/desafiocalc-estetic/" target="frame">Primeira pagina</a></li>
+        <li><a href="../Desafios/desafio-cordel-self/" target="frame">Segunda pagina</a></li>
+        <li><a href="../barranav/barranav.html" target="frame">Terceira pagina</a></li>
+
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos temporibus a molestiae facere voluptatibus, cupiditate quas sed hic nemo autem aut dolores atque animi deleniti porro blanditiis corrupti magni ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, in reiciendis. Et vitae eveniet deleniti commodi aliquam unde, dicta assumenda laborum! Fugit, animi adipisci praesentium ipsum odio officia saepe earum.    f-*</p>
+
+    <iframe id="tela" name="frame" src="">
+        <p>Infelizmente seu navegador não é compativel</p>
+
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in eius error itaque consequuntur eaque hic sit possimus delectus maxime! Voluptate possimus, aperiam facilis doloremque minus voluptatem ad praesentium adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque asperiores at dolor soluta aperiam suscipit debitis beatae neque vitae placeat similique labore amet consequatur officia a laborum, illo provident.</p>
+
+    <div class="container">
+        <img src="../Desafios/desafio-cordel-self/imagens/background001.jpg" alt="" class="joan">
+    
+    </div>
+    
+</body>
+</html>
