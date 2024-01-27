@@ -17,6 +17,7 @@
         background-color: rgba(0, 0, 0, 0.404);
         background-image: url(imagens/fundo-madeira.jpg);
         background-position: center bottom;
+        height: 100vh;
         
     }
 
@@ -27,7 +28,7 @@
     nav{
         display: flex;
         align-items: ;
-        justify-content: flex-end;
+        justify-content: center;
         
         
         
@@ -38,7 +39,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        
     }
 
     li{
@@ -64,7 +65,12 @@
     }
     /* fim do header */
 
+
+
+
     main{
+        height: 100vh;
+        
         
     }
 
@@ -72,6 +78,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
 
     section#phone{
@@ -80,11 +87,18 @@
         
         align-items: center;
         justify-content: center;
-        transform: translate(0px, -340px);
+        height: 627px;
+        width: 311px;
         
-        width: fit-content;
+        background-image: url(imagens/frame-iphone.png);
         
+    }
 
+    section#phone iframe{
+        
+        height: 468px;
+        width: 268px;
+        
     }
 
     
@@ -97,23 +111,25 @@
         <header>
             <nav>
                 <ul>
-                    <li><img src="imagens/logo-home.jpg" alt="" class="logo"></li>
+                    <li><a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="" class="logo"></a></li>
 
-                    <li><img src="imagens/logo-youtube.jpg" alt="" class="logo"></li>
+                    <li><a href="youtube.html" target="tela"><img src="imagens/logo-youtube.jpg" alt="" class="logo"></a></li>
 
-                    <li><img src="imagens/logo-github.jpg" alt="" class="logo"></li>
+                    <li><a href="github.html" target="tela"><img src="imagens/logo-github.jpg" alt="" class="logo"></a></li>
 
-                    <li><img src="imagens/logo-instagram.jpg" alt="" class="logo"></li>
+                    <li><a href="instagram.html" target="tela"><img src="imagens/logo-instagram.jpg" alt="" class="logo"></a></li>
 
-                    <li><img src="imagens/logo-twitter.jpg" alt="" class="logo"></li>
+                    <li><a href="twitter.html" target="tela"><img src="imagens/logo-twitter.jpg" alt="" class="logo"></a></li>
                     
-                    <li><img src="imagens/logo-facebook.jpg" alt="" class="logo"></li>
+                    <li><a href="facebook.html" target="tela"><img src="imagens/logo-facebook.jpg" alt="" class="logo"></a></li>
                 </ul>
             </nav>
         </header>
 
         <section id="phone">
-            <img src="imagens/frame-iphone.png" alt="">
+            
+            
+            <iframe src="home.html" frameborder="" name="tela"></iframe>
 
         </section>
     </main>
