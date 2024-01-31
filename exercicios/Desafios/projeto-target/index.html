@@ -6,10 +6,13 @@
     <title>Target Fit Club</title>
 </head>
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
     *{
         margin: 0;
         padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
         text-decoration: none;
         list-style: none;
     }
@@ -17,24 +20,26 @@
     body{
         width: 100vw;
         height: 100vh;
-        background-color: rgba(255, 255, 255, 0.122);
+        background-color: rgb(255, 255, 255);
 
     }
 
     main{
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 100vw;
         height: 100vh;
-        background-color: rgba(211, 211, 211, 0.301);
+        background-color: rgb(255, 255, 255);
     }
+    /* fim do inicio */
+    /* começo do header */
 
     header{
-        border: 10px;
+        
         display: flex;
         justify-content: space-between;
-        background-color: rgba(119, 136, 153, 0.641);
-        margin-top: 20px;
-        padding: 10px
+        background-color: rgba(255, 255, 255, 0.955);
+        
+        
         
     }
 
@@ -57,28 +62,150 @@
 
     header p{
         transform: translate(-3px, 30px);
-        color: white;
+        color: rgb(0, 0, 0);
+
     }
 
     nav{
         display: flex;
         align-items: center;
         
+        
     }
 
     nav ul{
         display: flex;
+        
     }
 
     nav ul li{
-        padding: 10px 40px;       
+        padding: 10px 40px;  
+        
 
     }
 
     nav ul li a{
         color: white;
         font-size: 1.5em;
+        color: rgb(143, 33, 33);
     }
+    /* Fim Header */
+
+    /* Article 1 */
+
+    article#container1{ 
+        display: flex;       
+        background-color: lightcoral;
+        height: 400px;
+        
+        background-size: cover;
+        background-position: center center;  
+        justify-content: center;
+        align-items: center;
+        
+        
+
+    }
+
+    .img1{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;        
+        filter: brightness(0.2) ;
+        transform: translate(0%, );
+    }
+
+    #content{
+        position: absolute;
+        text-align: center;
+        color: #f73e3e;
+        text-shadow: 1px 1px 10px black;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.125);
+            
+        
+    }
+
+    #content h1{
+        font-size: 3em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    #content p{
+        font-size: 1.3em;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+    }
+
+    /* Fim article 1 */
+
+    /* Inicio article 2 */
+
+    section#beneficios{
+        min-width: 1200px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.968);
+    }
+
+    .beneficios:hover{
+        background-color:#f73e3e ;
+        
+    }
+
+    #container2a{
+        margin: 40px;
+        padding: 20px;
+        width: 25%;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.123);
+        line-height: 30px;
+        color: white;
+        border-radius: 30px;
+        
+    }
+
+    #container2b{
+        margin: 40px;
+        padding: 20px;
+        width: 25%;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.123);
+        line-height: 30px;
+        color: white;
+        border-radius: 30px;
+    }
+
+    #container2c{
+        margin: 40px;
+        padding: 20px;
+        width: 25%;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.123);
+        line-height: 30px;
+        color: white;
+        border-radius: 30px;
+    }
+
+    section#beneficios h1{
+        font-size: 2em;
+    }
+
+    section#beneficios ul{
+        margin-top: 10px;
+    }
+
+    section#beneficios li{
+        list-style-type: disc;
+        list-style-position: inside;
+        text-indent: 20px;
+    }
+
+
+
+
+    
+
+    
 </style>
 <body>
     <main>
@@ -97,6 +224,55 @@
                 </ul>
             </nav>
         </header>
+
+        <article id="container1">
+            <img src="imagens/academia1.jpg" alt="" class="img1">
+
+            
+            <div id="content">
+                <h1>Venha treinar com a gente.</h1>
+                <p>Conheça nossos espaços.</p>
+            </div>
+        </article>
+
+        <section id="beneficios">
+            <article id="container2a" class="beneficios">
+                <h1>Na <strong>Target</strong> você terá:</h1>
+                <ul>
+                    <li>Aparelhos de última geração</li>
+                    <li>App de treinos</li>
+                    <li>Nutricionista na academia</li>
+                    <li>Suporte técnico do professor</li>
+                    <li>Academia aberta todos os dias</li>
+                </ul>            
+            </article>
+
+            <article id="container2b" class="beneficios">
+                <h1>Na <strong>Target</strong> você terá:</h1>
+                <ul>
+                    <li>Aparelhos de última geração</li>
+                    <li>App de treinos</li>
+                    <li>Nutricionista na academia</li>
+                    <li>Suporte técnico do professor</li>
+                    <li>Academia aberta todos os dias</li>
+                </ul>
+            </article>
+
+            <article id="container2c" class="beneficios">
+                <h1>Na <strong>Target</strong> você terá:</h1>
+                <ul>
+                    <li>Aparelhos de última geração</li>
+                    <li>App de treinos</li>
+                    <li>Nutricionista na academia</li>
+                    <li>Suporte técnico do professor</li>
+                    <li>Academia aberta todos os dias</li>
+                </ul>
+            </article>
+
+        </section>
+        
+
+            
     </main>
     
 </body>
